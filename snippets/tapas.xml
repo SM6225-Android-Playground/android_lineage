@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote name="tapas-playground" fetch="https://github.com/SM6225-Android-Playground" />
+
+<remove-project name="LineageOS/android_frameworks_base" />
+<remove-project name="LineageOS/android_frameworks_av" />
+<remove-project name="LineageOS/android_system_core" />
+<remove-project name="LineageOS/android_system_vold" />
+
+<!-- Track fork of the following repos -->
+<project path="frameworks/base" name="android_frameworks_base-lineage" remote="tapas-playground" revision="lineage-23.2" />
+<project path="frameworks/av" name="android_frameworks_av-lineage" remote="tapas-playground" revision="lineage-23.2" />
+<project path="system/core" name="android_system_core-lineage" remote="tapas-playground" revision="lineage-23.2" />
+<project path="system/vold" name="android_system_vold-lineage" remote="tapas-playground" revision="lineage-23.2" />
+
+
+
+
+</manifest>
